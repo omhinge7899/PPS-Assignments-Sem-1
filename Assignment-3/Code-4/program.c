@@ -6,7 +6,7 @@ int main()
     float a, b, result;
 
     printf("Enter operator (+, -, *, /): ");
-    scanf(" %c", &op); // Notice the leading space before %c to clear the newline buffer
+    scanf(" %c", &op); 
 
     printf("Enter two numbers: ");
     scanf("%f %f", &a, &b);
